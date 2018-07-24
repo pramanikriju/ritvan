@@ -6,7 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -26,24 +26,25 @@
 
 								<article class="item thumb span-1">
 									<h2>About Us</h2>
-									<a href="images/fulls/01.jpg" class="image"><img src="images/thumbs/01.jpg" alt=""></a>
+									<a  class="image" data-toggle="modal" data-target="#about"><img src="images/thumbs/01.jpg" alt=""></a>
 								</article>
 
-								<article class="item thumb span-2">
+								<article class="item thumb span-2" data-toggle="modal" data-target="#services">
 									<h2>Services</h2>
-									<a href="images/fulls/02.jpg" class="image"><img src="images/thumbs/02.jpg" alt=""></a>
+									<a class="image" ><img src="images/thumbs/02.jpg" alt=""></a>
 								</article>
 
 								<article class="item thumb span-1">
-									<h2>Different.</h2>
+									<h2>Why Us</h2>
 									<a href="images/fulls/03.jpg" class="image"><img src="images/thumbs/03.jpg" alt=""></a>
 								</article>
 
 								<article class="item thumb span-1">
-									<h2>Elysium</h2>
+									<h2>Social Links</h2>
 									<a href="images/fulls/04.jpg" class="image"><img src="images/thumbs/04.jpg" alt=""></a>
 								</article>
 
+<!--
 								<article class="item thumb span-3">
 									<h2>Welcome </h2>
 									<a href="images/fulls/05.jpg" class="image"><img src="images/thumbs/05.jpg" alt=""></a>
@@ -59,10 +60,11 @@
 									<a href="images/fulls/07.jpg" class="image"><img src="images/thumbs/07.jpg" alt=""></a>
 								</article>
 
-								<article class="item thumb span-2">
-									<h2>The Spectators</h2>
+								<article class="item thumb span-3">
+									<h2>Testimonials</h2>
 									<a href="images/fulls/08.jpg" class="image"><img src="images/thumbs/08.jpg" alt=""></a>
 								</article>
+-->
 
 							</div>
 
@@ -73,14 +75,15 @@
                                     <h2>Welcome</h2><a href="images/fulls/05.jpg" class="image"><img src="images/thumbs/05.jpg" alt="" title="This right here is a caption."></a></article>
                                 
 								<article class="item thumb span-1">
-                                    <h2>Why Us</h2><a href="images/fulls/06.jpg" class="image"><img src="images/thumbs/06.jpg" alt=""></a></article>
+                                    <h2>About Us</h2><a href="images/fulls/06.jpg" class="image"><img src="images/thumbs/06.jpg" alt=""></a></article>
                                 
 								<article class="item thumb span-2">
-                                    <h2>Boundless</h2><a href="images/fulls/07.jpg" class="image"><img src="images/thumbs/07.jpg" alt=""></a></article>
+                                    <h2>Get in Touch</h2><a href="images/fulls/07.jpg" class="image"><img src="images/thumbs/07.jpg" alt=""></a></article>
                                 
 								<article class="item thumb span-2">
-                                    <h2>The Spectators</h2><a href="images/fulls/08.jpg" class="image"><img src="images/thumbs/08.jpg" alt=""></a></article>
+                                    <h2>Testimonials</h2><a href="images/fulls/08.jpg" class="image"><img src="images/thumbs/08.jpg" alt=""></a></article>
                                 
+<!--
 								<article class="item thumb span-1">
                                     <h2>You really got me</h2><a href="images/fulls/01.jpg" class="image"><img src="images/thumbs/01.jpg" alt=""></a></article>
                                 
@@ -95,22 +98,24 @@
                                 
 								<article class="item thumb span-1">
                                     <h2>Elysium</h2><a href="images/fulls/04.jpg" class="image"><img src="images/thumbs/04.jpg" alt=""></a></article>
+-->
 
 							</div>
 
 					</section>
 
 				<!-- Footer -->
-					<section id="footer">
+					
+                <section id="footer">
 						<section>
-							<p>This is <strong>Parallelism</strong>, a responsive portfolio site template by <a href="http://html5up.net">HTML5 UP</a>. Free for personal
-							and commercial use under the <a href="http://html5up.net/license">Creative Commons Attribution</a> license.</p>
+							<p>This is <strong>Parallelism</strong>, a responsive portfolio site template by . Free for personal
+							and commercial use under the Creative Commons Attribution license.</p>
 						</section>
 						<section>
 							<ul class="icons">
 								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.facebook.com/RitvanEvents/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
 								<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
@@ -121,9 +126,81 @@
 					</section>
 
 			</div>
+        
+<!--        Modals -->
+<!--        services-->
+        <div class="modal fade" id="services" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Services</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <nav>
+                          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Entertainment</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Decoration</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Artist Management</a>
+                              <a class="nav-item nav-link" id="nav-event-tab" data-toggle="tab" href="#nav-event" role="tab" aria-controls="nav-contact" aria-selected="false">Events</a>
+                          </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+                          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+                          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+                        <div class="tab-pane fade" id="nav-event" role="tabpanel" aria-labelledby="nav-event-tab">...</div>
+                        </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+<!--        about us-->
+         <div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">About Us</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                 <p>
+                      Creative force behind our projects is our event designer Ritu Agarwal</p>
 
+                   <p>  Her path to event design started with Bachelor of Arts (1992), Loreto House, Kolkata,India followed by Diploma in Interior Designing (1993), Jenson and Nicholson and various Diplomas in Painting, Sculpting, Flower Arrangement, Floor Decoration.</p>
+
+                 <p>    When she switched to Event Design , she never looked back.</p>
+                      <img class="img-fluid" src="images/fulls/about.jpg" >
+
+               <p>      Her academic background and rich experience ensures that your Event Decor will be tasteful, creative and cost-effective. Providing party and wedding decorations for over 12 months we specialize in creating stunning and unique decorations to transform your venue, helping to create the event of your dreams.</p>
+
+               <p>      As party and wedding decorators, we offer our services for weddings, corporate events, diwali, ring ceremony, baby shower, anniversaries and birthdays.We show you designs we believe should suit you, taking your budget into consideration.No matter what kind of event decoration you need, we have the talent, skills, experience and inventory to make your next event spectacular. We offer the very best in party décor and we can put together the perfect look for you.We give that special finishing touch that says a million words in your pictures and stays with your memory.</p>
+
+
+                <p>     Ms. Ritu Agarwal has been honored with the STAR Regional Awards - Female Performer category in Runner's up position(BNI Annual Meet). The event was hosted at JW Marriott on 18th August 2017.
+                      </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+			
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
