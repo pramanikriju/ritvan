@@ -192,7 +192,7 @@ input, select, textarea {
 	}
 
 		.container.medium {
-			width: 38.25em;
+			width: 45em;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -2597,7 +2597,7 @@ input, select, textarea {
 
 	.feature {
 		position: relative;
-		height: 20em;
+		height: 30em;
 	}
 
 		.feature:after {
@@ -2995,7 +2995,7 @@ input, select, textarea {
 		/* Feature */
 
 			.feature {
-				height: 18em;
+				height: 30em;
 			}
 
 				.feature .content {
