@@ -1,6 +1,7 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 
+
 /*
 	Directive by HTML5 UP
 	html5up.net | @ajlkn
@@ -137,7 +138,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #5b0101;
+		color: #cc0000;
 		font-weight: 700;
 		letter-spacing: 0.125em;
 		line-height: 1.75em;
