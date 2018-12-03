@@ -2037,12 +2037,12 @@ input, select, textarea {
 	}
 
 		footer.major {
-			border-bottom-width: 1px;
+			border-bottom-width: 0px;
 			border-color: rgba(224, 224, 224, 0.75);
 			border-style: solid;
-			border-top-width: 1px;
-			margin-top: 6em;
-			padding: 4em 0;
+			border-top-width: 0px;
+			margin-top: 2em;
+			padding: 1em 1em;
 			position: relative;
 		}
 
@@ -2056,6 +2056,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
+/*
 			footer.major:before {
 				top: 10px;
 			}
@@ -2063,6 +2064,7 @@ input, select, textarea {
 			footer.major:after {
 				bottom: 10px;
 			}
+*/
 
 /* Form */
 
@@ -2175,6 +2177,7 @@ input, select, textarea {
 		position: relative;
 	}
 
+/*
 		.image:after {
 			-moz-transition: opacity 0.25s ease-in-out;
 			-webkit-transition: opacity 0.25s ease-in-out;
@@ -2189,6 +2192,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 100%;
+*/
 		}
 
 		.image img {
@@ -2713,7 +2717,7 @@ input, select, textarea {
 
 		#header:before {
 			height: calc(100% - 50px);
-			opacity: 0.15;
+			opacity: 0;
 			top: 0;
 		}
 
