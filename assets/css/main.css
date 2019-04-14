@@ -89,6 +89,7 @@ input, select, textarea {
 
 	body {
 		background: #ffffff;
+         
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2913,7 +2914,7 @@ input, select, textarea {
 
 		#main header.major,
 		#main footer.major {
-			background: #ffffff;
+/*			background: #ffffff;*/
 		}
 
 /* Wide */
