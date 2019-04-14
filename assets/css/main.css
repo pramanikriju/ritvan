@@ -140,7 +140,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		color: #cc0000;
 		font-weight: 700;
-		letter-spacing: 0.125em;
+/*		letter-spacing: 0.125em;*/
 		line-height: 1.75em;
 		margin-bottom: 1em;
 		text-transform: uppercase;
@@ -2974,7 +2974,7 @@ input, select, textarea {
 			}
 
 			h3 {
-				font-size: 1.6em;
+				font-size: 3em;
 			}
 
 		/* Section/Article */
