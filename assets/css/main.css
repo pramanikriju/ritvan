@@ -2696,6 +2696,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
+/*
 		background-attachment: scroll,							scroll,					fixed;
 		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
 		background-position: bottom center,					top left,				center center;
@@ -2705,6 +2706,22 @@ input, select, textarea {
 		padding: 10em 0 20em 0;
 		position: relative;
 		text-align: center;
+*/
+        
+        	background-attachment:						scroll,					fixed;
+		background-image: url("images/overlay.png"), url("../../images/header.jpg");
+		background-position: 				top left,				center center;
+		background-repeat: 					repeat,					no-repeat;
+		background-size:		auto,					cover;
+		color: rgba(255, 255, 255, 0.8);
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
+        z-index: 1;
+    
+        
+        
+
 	}
 
 		#header:before, #header:after {
@@ -2712,7 +2729,7 @@ input, select, textarea {
 			content: '';
 			left: 50%;
 			position: absolute;
-			width: 1px;
+			width: 0px;
 			z-index: 0;
 		}
 
