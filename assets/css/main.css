@@ -3033,12 +3033,19 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
-				background-size: 1600px 230px,					auto,							cover;
-				padding: 6em 0 12em 0;
+					background-attachment:						scroll,					fixed;
+		background-image: url("images/overlay.png"), url("../../images/header.jpg");
+		background-position: 				top left,				center center;
+		background-repeat: 					repeat,					no-repeat;
+		background-size:		auto,					cover;
+		color: rgba(255, 255, 255, 0.8);
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
+        z-index: 1;
 			}
 
+/*
 				#header:before {
 					height: calc(100% - 25px);
 				}
@@ -3046,6 +3053,7 @@ input, select, textarea {
 				#header:after {
 					height: 25px;
 				}
+*/
 
 				#header h1 {
 					font-size: 2em;
@@ -3186,9 +3194,16 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
-				background-size: 1280px 184px,						auto,							cover;
-				padding: 3em 0 7em 0;
+				background-attachment:						scroll,					fixed;
+		background-image: url("images/overlay.png"), url("../../images/header.jpg");
+		background-position: 				top left,				center center;
+		background-repeat: 					repeat,					no-repeat;
+		background-size:		auto,					cover;
+		color: rgba(255, 255, 255, 0.8);
+		padding: 10em 0 20em 0;
+		position: relative;
+		text-align: center;
+        z-index: 1;
 			}
 
 				#header:before {
