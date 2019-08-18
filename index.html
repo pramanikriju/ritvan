@@ -295,9 +295,37 @@
             <h3>Our Story</h3>
             Creative force behind our projects is our event designer Ritu Agarwal.<br>
             Her path to event design started with Bachelor of Arts (1992), Loreto House, Kolkata, India followed by Diploma in Interior Designing (1993), Jenson & Nicholson & various Diplomas in Painting, Sculpting, Flower Arrangement & Floor Decoration.<br>
-            Once she switched to Event Design, there was no looking back!<br>
+            
+            
+               <button id="collapsible1" class="button alt" style="">Read more</button><br>
+            <div id="content1" style="display: none;">
+                           <p>
+                  Once she switched to Event Design, there was no looking back!<br>
             Her academic background and rich experience ensure that your Events will be tasteful, creative & cost-effective. Providing party & wedding decorations for over 6 years, we specialise in creating stunning and unique decorations to transform your venue, helping to create the event of your dreams.<br>
-            Ms. Ritu Agarwal has been honoured with the STAR Regional Awards - Female Performer category in Runner's up position (BNI Annual Meet) hosted at JW Marriott on 18th August 2017.<br>
+            Ms. Ritu Agarwal has been honoured with the STAR Regional Awards - Female Performer category in Runner's up position (BNI Annual Meet) hosted at JW Marriott on 18th August 2017.<br></p>
+                           <button id="close1" class="button alt" style="">Read less</button><br>
+
+            </div>
+            
+            <script>
+                        var button1 = document.getElementById('collapsible1');
+                        var content3 = document.getElementById('content1');
+                        button1.addEventListener("click", function(e) {
+                            content1.style.display = "block";
+                            button1.style.display = "none";
+                        }, false);
+
+                        var button44 = document.getElementById('close1');
+                        var content44 = document.getElementById('content1');
+                        button44.addEventListener("click", function(e) {
+                            content44.style.display = "none";
+                            button1.style.display = "inline";
+
+                        }, false);
+                    </script>
+            
+            
+        
             <br>
             <img src="images/1.jpg" class="image" style=" max-width: 100%;height: auto;">
 
@@ -336,8 +364,31 @@
             <img src="images/hosp.jpg" class="image" width="90%;">
             <p>
                 Our hospitality team is a warm, friendly & courteous, and available at our client's disposal! We take care of everything, right from:</p>
-            <p>
+            <button id="collapsible3" class="button alt" style="">Read more</button><br>
+            <div id="content3" style="display: none;">
+                           <p>
                 Guest Arrival & their Pickup from Airport & Station | Hotel check-in Management | Help Desk at the hotel | Travel Desk at the hotel | Car Management | In hotel Management | Venue drop & pickup for functions | First Aid Box at the hotel | Phone calls for function & venue details for the guest | Room Baskets & program card placement in rooms | Guest departure for Airport & Station | Flex at Help Desk & Travel Desk | Programme Schedule print on flex | Program card | Luggage tag | Car Card | Car Sticker | Placard for Airport & Station | Messages for the Event</p>
+                           <button id="close3" class="button alt" style="">Read less</button><br>
+
+            </div>
+            
+            <script>
+                        var button3 = document.getElementById('collapsible3');
+                        var content3 = document.getElementById('content3');
+                        button3.addEventListener("click", function(e) {
+                            content3.style.display = "block";
+                            button3.style.display = "none";
+                        }, false);
+
+                        var button33 = document.getElementById('close3');
+                        var content33 = document.getElementById('content3');
+                        button33.addEventListener("click", function(e) {
+                            content33.style.display = "none";
+                            button3.style.display = "inline";
+
+                        }, false);
+                    </script>
+ 
         </footer>
 
         <footer class="major container medium">
@@ -349,7 +400,7 @@
 
 
         <footer class="major container medium">
-            <h2>Here's what our clients have to say</h2>
+            <h3>Here's what our clients say</h3>
             <!--            test -->
             <div class="box alt container">
                 <section class="feature left">
